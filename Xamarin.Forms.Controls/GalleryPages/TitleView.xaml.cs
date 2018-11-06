@@ -27,7 +27,10 @@ namespace Xamarin.Forms.Controls.GalleryPages
 		static NavigationPage CreateNavigationPage()
 		{
 			var page = new TitleView(false) { Title = "Nav Title" };
-			return new NavigationPage(page);
+			return new NavigationPage(page)
+			{
+				BarBackgroundColor = Color.Aqua
+			};
 		}
 
 		public static Page GetPage()

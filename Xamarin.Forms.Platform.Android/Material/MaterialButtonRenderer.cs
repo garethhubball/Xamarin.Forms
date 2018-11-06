@@ -288,7 +288,7 @@ namespace Xamarin.Forms.Platform.Android.Material
 
 		private void UpdateBorder()
 		{
-			int cornerRadius = ButtonDrawable.DefaultCornerRadius;
+			int cornerRadius = BorderDrawable.DefaultCornerRadius;
 
 			if (Button.IsSet(Button.CornerRadiusProperty) && Button.CornerRadius != (int)Button.CornerRadiusProperty.DefaultValue)
 				cornerRadius = Button.CornerRadius;
